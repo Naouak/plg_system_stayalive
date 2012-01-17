@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="system">
+    <name>plg_system_stayalive</name>
+    <author>Naouak</author>
+    <creationDate>Jan 2012</creationDate>
+    <licence>WTFPL</licence>
+    <authorEmail>tardiel@gmail.com</authorEmail>
+    <authorUrl>http://www.naouak.net/</authorUrl>
+    <version>0.1</version>
+    <description>PLG_STAYALIVE_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="stayalive">stayalive.php</filename>
+        <filename>index.html</filename>
+    </files>
+
+    <languages>
+        <language tag="en-GB">en-GB.plg_system_stayalive.ini</language>
+        <language tag="en-GB">en-GB.plg_system_stayalive.sys.ini</language>
+    </languages>
+
+    <config>
+        <fields name="params">
+
+        </fields>
+    </config>
+</extension>
